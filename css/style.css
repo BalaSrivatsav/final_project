@@ -53,19 +53,26 @@
 
 .skip{
     position: absolute;
-    left: -10000px;
-    top: auto;
+    left: -1000px;
+/*     top: auto;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    overflow: hidden; */
+    height: 25px;
+    background-color: white;
+    opacity: 0;	
 }
 
 .skip:focus {
-    position: static;
+/*     position: static;
     width: auto;
     height: auto;
     color: blue;
-    text-decoration: underline;
+    text-decoration: underline; */
+    left: 1%;
+    opacity: 1;
+    position: fixed;
+    top: 10px;
 }
 
 body, html {
