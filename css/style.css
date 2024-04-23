@@ -113,7 +113,7 @@ h1, p {
 }
 
 #section4 {
-	color: #0c0c0c;
+	color: #FFFFED;
   	background-size: 100% 100%;
   	opacity: 0.6;
 }
@@ -123,23 +123,21 @@ h1 {
 	margin-bottom: 25px;
 }
 
-#project-list > li {
-	text-align: left;
-	margin-left: 5vw;
+#award-list > li {
+	text-align: center;
 	padding-bottom: 30px;
 	font-size: 13px;
 }
 
-#project-list > li > a {
-	text-align: left;
+#award-list > li > a {
+	text-align: center;
 	padding-bottom: 50px;
 	font-size: 13px;
 	color: blue;
 }
 
-.projects-title{
-	text-align: left;
-	margin-left: 5vw;
+.awards-title{
+	text-align: center;
 	padding-top: 55px;
 }
 
