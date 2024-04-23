@@ -1,3 +1,27 @@
+.hidden-mobile{
+    position: absolute;
+    left: -1000px;
+/*     top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden; */
+    height: 25px;
+    background-color: white;
+    opacity: 0;	
+}
+
+.hidden-mobile:focus {
+/*     position: static;
+    width: auto;
+    height: auto;
+    color: blue;
+    text-decoration: underline; */
+    left: 1%;
+    opacity: 1;
+    position: fixed;
+    top: 10px;
+}
+
 .profile-picture > img{
 	width: 40vw;
 	height: 40vw;
@@ -49,30 +73,6 @@
 .active {
 	background-color: black;
 	color: white;
-}
-
-.skip{
-    position: absolute;
-    left: -1000px;
-/*     top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden; */
-    height: 25px;
-    background-color: white;
-    opacity: 0;	
-}
-
-.skip:focus {
-/*     position: static;
-    width: auto;
-    height: auto;
-    color: blue;
-    text-decoration: underline; */
-    left: 1%;
-    opacity: 1;
-    position: fixed;
-    top: 10px;
 }
 
 body, html {
